@@ -1,0 +1,269 @@
+.wrapper{
+	width:90%;
+	height:1000px;
+	background:#A12323;
+	margin: 0 auto 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+/*----------------------------heading----------------------------*/
+.heading{
+	height:70px;
+	background:#ffffff;
+	line-height: 70px;
+	text-align:left;
+}
+.heading h1{
+	font-family:arial;
+	padding-left: 1%;
+}
+/*----------------------------heading----------------------------*/
+
+
+
+
+
+
+
+
+/*----------------------------menubar----------------------------*/
+.menubar{
+	font-family:arial;
+
+}
+
+.menubar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+.menubar li{
+    float: left;
+}
+
+}
+.menubar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.menubar li a:hover {
+    background-color: #C04141;
+}
+
+.active {
+    background-color: #C04141;
+}
+
+
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: C04141;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.menubar input{
+	float:center;
+	line-height: 40px;
+}
+input myInput[type=text] {
+    width: 20%;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+/* When the input field gets focus, change its width to 100% */
+input[type=text]:focus {
+    width: 30%;
+}
+
+
+
+
+/*----------------------------menubar----------------------------*/
+
+
+/*----------------------------Insert Product----------------------------*/
+.content{
+	font-family:arial;
+}
+/*----------------------------Insert Product----------------------------*/
+
+
+
+
+
+
+
+
+/*----------------------------sidebar----------------------------*/
+.sidebar{
+	height: 100%;
+	width: 15%;
+	background: #fffff1;
+	float:left;
+}
+/*----------------------------sidebar----------------------------*/
+
+
+
+
+
+
+
+
+
+
+/*----------------------------content----------------------------*/
+.promo{
+	height: 100%;
+	width: 100%;
+	background: #fffff1;
+}
+.promo h1{
+	font-family:arial;
+	padding-top: 20px;
+}
+.content{
+	height: 100%;
+	width: 100%;
+	background: #ffffff;
+}
+.content ul{
+	font-family:arial;
+}
+.products {
+	width:100%;
+	text-align:left;
+	padding-top:10px;
+}
+.content h1{
+	font-family:arial;
+	padding-top: 20px;
+}
+
+#single_product{
+	font-family: arial;
+	float:left;
+	margin-left:20px;
+	padding:10px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	}
+
+#single_product button{
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#detail_product{
+	font-family: arial;
+	}
+	
+#detail_product button{
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+/*----------------------------content----------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------------------------footer----------------------------*/
+.footer{
+	height: 10%;
+	width: 100%;
+	background:#A12323;
+	font-family:arial;
+	font-size:10;
+	text-align:center;
+	line-height:100px;
+}
+
+.footer h1{
+	color:#ffffff;
+}
+/*----------------------------footer----------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
